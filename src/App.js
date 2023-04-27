@@ -16,7 +16,7 @@ const App = () => {
             <input type="text" onChange={(e) => setFirstName(e.target.value)} />
           </div>
           {firstName.length < 2 && firstName.length > 0 ? (
-            <p>First Name must be at least 2 character</p>
+            <p>First Name must be at least 2 characters</p>
           ) : null}
           <div>
             <label htmlFor="">Last Name:</label>
